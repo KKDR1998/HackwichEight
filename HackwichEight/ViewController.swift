@@ -37,6 +37,10 @@ class ViewController: UIViewController {
         startNewRound()
         
         updateTargetLabel()
+        
+        //set image to slider
+        let thumbImageNormal = UIImage(named: "Image-2")
+        slider.setThumbImage(thumbImageNormal, for: .normal)
     
     }
     
